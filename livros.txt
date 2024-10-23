@@ -1,0 +1,8 @@
+API para gerenciar livros
+
+METOD   PATH            DESCRIPTION
+GET     /livros         Lista  de Livros do catálogo
+GET     /livros/{id}    Detalhes de um livro
+POST    /livros         Criar um livro no catálogo
+PUT     /livros/{id}    Editar Livro ID informado
+DELETE  /livros/{id}    Remover livro com ID informado
